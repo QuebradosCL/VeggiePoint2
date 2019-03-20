@@ -1,0 +1,137 @@
+.navbar-inverse .navbar-nav > li > a {
+    color: #f3c42a;
+    font-size: 18px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 60px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-bottom: 2px solid;
+    font-family: 'Amatic SC', cursive;
+}
+
+.slide-image{
+    width: 100% !important;
+    height: 500px !important;
+}
+
+.container-fluid{
+    background: #1f1f1f;
+    color: #ffffff;
+}
+
+.container{
+    background: #1f1f1f;
+    color: #ffffff;
+}
+
+body{
+    background: #1f1f1f;
+    color: #ffffff;
+}
+
+.card{
+    color: #f3c42a !important;
+    border: #000000 solid 1px;
+    padding: 10px;
+    border-radius: 3px;
+    background: #333333;
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+}
+
+.card > h4{
+    text-align: right;
+    font-size: 28px;
+}
+
+.card-text{
+    margin-top:  5px;
+    text-align: justify;
+    min-height: 150px;
+    max-height: 150px;
+    overflow: auto;
+}
+
+.card-img{
+    width: 100%;
+    max-height: 220px;
+    min-height: 220px;
+}
+
+.btn-more{
+    float: right;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #292928;
+    border-color: #eea236;
+}
+
+.footer{
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 2px solid #f3c42a; 
+    background: #333333;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.pagination > li > a, 
+.pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #f3c42a;
+    text-decoration: none;
+    background-color: #333333;
+    border: 1px solid #f3c42a;
+}
+
+.pagination > li > a:hover, 
+.pagination > li > span:hover {
+    color: #333333;
+    text-decoration: none;
+    background-color: #f3c42a;
+    border: 1px solid #333333;
+}
+
+.promo{
+    color: #ee3b3b;
+}
+
+.who{
+    font-family: 'Amatic SC', cursive;
+    font-size: 36;
+}
+
+.whoare{
+    text-align: justify;
+    font-size: 16px;
+}
+
+.textocontenido{
+  max-width: 100% !important;
+  min-width: 100% !important;
+}
+
+.img-menu{
+    text-align: center;
+}
+
+.list-group-item-dark {
+    font-family: 'Amatic SC', cursive;
+    font-size: 28px;
+    color: #f3c42a;
+    background-color: #1b1e21;
+}
