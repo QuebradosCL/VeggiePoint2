@@ -66,21 +66,21 @@
                                 <nav aria-label="Page navigation">
                                 <ul class="pagination pagination-lg">
                                     <li>
-                                    <a href="promociones.php?pag=<?php echo $y ?>" aria-label="Previous">
+                                    <a href="promociones.php?pag=<?php echo $y ?>&condition=option&like=<?php echo $like ?>" aria-label="Previous">
                                         <span aria-hidden="true">&laquo;</span>
                                     </a>
                                     </li>
                                     <?php
                                     while($x <= ($numeroFilas/$cantidadPagina)){
                                     ?>
-                                        <li><a href="promociones.php?pag=<?php echo $y ?>"><?php echo $x+1 ?></a></li>
+                                        <li><a href="promociones.php?pag=<?php echo $y ?>&condition=option&like=<?php echo $like ?>"><?php echo $x+1 ?></a></li>
                                     <?php
                                         $x++;
                                         $y = $y +$cantidadPagina;
                                     }
                                     ?>
                                     <li>
-                                    <a href="promociones.php?pag=<?php echo $y-$cantidadPagina ?>" aria-label="Next">
+                                    <a href="promociones.php?pag=<?php echo $y-$cantidadPagina ?>&condition=option&like=<?php echo $like ?>" aria-label="Next">
                                         <span aria-hidden="true">&raquo;</span>
                                     </a>
                                     </li>
